@@ -9,7 +9,7 @@ db_config = {
 }
 
 def get_user_input():
-    user_input = input('Enter your name: ')
+    user_input = input('Enter your name:')
     return user_input
 
 def send_email(to, subject, body):
